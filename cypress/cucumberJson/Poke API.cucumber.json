@@ -1,0 +1,232 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "PokeAPI.co",
+    "line": 1,
+    "id": "pokeapi.co",
+    "tags": [],
+    "uri": "Poke API.feature",
+    "elements": [
+      {
+        "id": "pokeapi.co;1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send \"valid\" \"GET\" request for \"https://pokeapi.co/api/v2/berry/1\"",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I validate \"id\" in response as \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I validate \"name\" in response as \"cheri\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pokeapi.co;2",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I send \"NOT FOUND\" \"GET\" request for \"https://pokeapi.co/api/v2/berry/101\"",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pokeapi.co;3",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "3",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I send \"valid\" \"GET\" request for \"https://pokeapi.co/api/v2/berry/chesto\"",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I validate \"id\" in response as \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I validate \"name\" in response as \"chesto\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pokeapi.co;4",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I send \"NOT FOUND\" \"GET\" request for \"https://pokeapi.co/api/v2/berry/chresto\"",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pokeapi.co;5",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "5",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I send \"valid\" \"GET\" request for \"https://pokeapi.co/api/v2/berry/chesto\"",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I validate \"id\" in response as \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I validate \"name\" in response as \"chesto\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pokeapi.co;6",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "6",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I send \"valid\" \"GET\" request for \"https://pokeapi.co/api/v2/berry-flavor/spicy\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I validate \"spicy\" berries in response",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I pick the berry with the highest potency",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I send \"valid\" \"GET\" request for the selected berry \"https://pokeapi.co/api/v2/berry/\"",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I validate \"id\" and \"name\" in response",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

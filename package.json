@@ -1,0 +1,83 @@
+{
+  "name": "cypress_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openOMSStage": "npx cypress open --env configFile=OMS,exec_Env=Staging",
+    "openOMSQA": "npx cypress open --env configFile=OMS,exec_Env=QA",
+    "openSFSCStage": "npx cypress open --env configFile=SFSC,exec_Env=Staging",
+    "openSFSCQA": "npx cypress open --env configFile=SFSC,exec_Env=QA",
+    "openOMNIStage": "npx cypress open --env configFile=OMNI,exec_Env=Staging",
+    "openOMNIQA": "npx cypress open --env configFile=OMNI,exec_Env=QA",
+    "report:allure": "allure generate cypress/allure-results --clean -o allure-report && allure open  allure-report",
+    "lint": "eslint . --ext .ts --ext .js",
+    "lint:fix": "eslint . --ext .ts --ext .js.jsx --fix",
+    "cy:runOMS": "cypress run --env configFile=OMS,exec_Env=Staging,TAGS=@OMS_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMS/*/*/*.feature' --tag 'OMS-RT:Staging'",
+    "cy:runINTS": "cypress run --env configFile=INTS,exec_Env=Staging,TAGS=@INTS_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/INTS/*/*/*.feature' --tag 'INTS-RT:Staging'",
+    "cy:runSFSC": "cypress run --env configFile=SFSC,exec_Env=Staging,TAGS=@SFSC_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/SFSC/*/*/*.feature' --tag 'SFSC-RT:Staging'",
+    "cy:runOMNI": "cypress run --env configFile=OMNI,exec_Env=Staging,TAGS=@OMNI_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMNI_RT/*/*/*/*.feature' --tag 'OMNI-RT:Staging'"
+
+  },
+  "author": "akksi",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.17.2",
+    "cypress-mochawesome-reporter": "^3.1.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-parallel": "^0.13.0",
+    "cypress-zapi-js": "^1.0.9",
+    "dayjs": "1.10.4",
+    "har-validator": "5.1.5",
+    "jsforce": "^1.11.1",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^10.0.0",
+    "mocha-allure-reporter": "1.4.0",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "4.2.0",
+    "path": "^0.12.7",
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "atlassian-jwt": "^1.0.2",
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "12.0.2",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-recurse": "^1.23.0",
+    "cypress-terminal-report": "^3.2.2",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.2",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "fs-extra": "^9.1.0",
+    "gmail-tester": "^1.3.2",
+    "hashmap": "^2.4.0",
+    "jquery": "^3.4.1",
+    "json-web-token": "^3.2.0",
+    "moment": "^2.29.4",
+   
+    "request": "^2.88.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepBaseDir": "cypress/e2e",
+    "stepDefinitions": "cypress/e2e",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumberJson",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "cypress-wait-until"
+    ]
+  }
+}

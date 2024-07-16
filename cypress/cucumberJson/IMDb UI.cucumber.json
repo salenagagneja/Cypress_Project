@@ -1,0 +1,472 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "IMDb.com",
+    "line": 1,
+    "id": "imdb.com",
+    "tags": [],
+    "uri": "IMDb UI.feature",
+    "elements": [
+      {
+        "id": "imdb.com;1",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 9316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on \"acceptCookiee\"",
+            "result": {
+              "status": "passed",
+              "duration": 799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I set text \"Nicolas Cage\" for element \"searchBox\" and Enter",
+            "result": {
+              "status": "passed",
+              "duration": 5854000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I set text \"Nicolas Cage\" for element \"searchBox\" and Enter",
+            "result": {
+              "status": "passed",
+              "duration": 5465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click on \"fisrtSearchResult\"",
+            "result": {
+              "status": "passed",
+              "duration": 9750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click on \"upcomingProject\"",
+            "result": {
+              "status": "passed",
+              "duration": 776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I fetch list of movies with \"Completed\" tag",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "imdb.com;2",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 6363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on \"acceptCookiee\"",
+            "result": {
+              "status": "passed",
+              "duration": 815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I click on \"btnmenu\"",
+            "result": {
+              "status": "passed",
+              "duration": 1168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click on \"topBoxOffice\"",
+            "result": {
+              "status": "passed",
+              "duration": 5376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I select \"2\" item on the \"rating\" list",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I click on \"5Star\"",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I click on \"Rate\"",
+            "result": {
+              "status": "passed",
+              "duration": 4349000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "imdb.com;3",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "3",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 5755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on \"acceptCookiee\"",
+            "result": {
+              "status": "passed",
+              "duration": 571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I click on \"btnmenu\"",
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click on \"topTVShows\"",
+            "result": {
+              "status": "passed",
+              "duration": 13479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I click on \"breakingBad\"",
+            "result": {
+              "status": "passed",
+              "duration": 12784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click on \"photos\"",
+            "result": {
+              "status": "passed",
+              "duration": 4041000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "imdb.com;4",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "4",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 12440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on \"acceptCookiee\"",
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on \"btnmenu\"",
+            "result": {
+              "status": "passed",
+              "duration": 1007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I click on \"bornToday\"",
+            "result": {
+              "status": "passed",
+              "duration": 6433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I click on \"closeDateFilter\"",
+            "result": {
+              "status": "passed",
+              "duration": 499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I click on \"birthdayFilter\"",
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I set text \"YESTERDAY|MM-DD|0\" for element \"inpBirthday\" and Enter",
+            "result": {
+              "status": "passed",
+              "duration": 877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click on \"seeResult\"",
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I select \"3\" item on the \"birthdayList\" list",
+            "result": {
+              "status": "passed",
+              "duration": 8513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I capture screenshot",
+            "result": {
+              "status": "passed",
+              "duration": 11511000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "imdb.com;5",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "5",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open website",
+            "result": {
+              "status": "passed",
+              "duration": 11371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on \"acceptCookiee\"",
+            "result": {
+              "status": "passed",
+              "duration": 527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I click on \"btnmenu\"",
+            "result": {
+              "status": "passed",
+              "duration": 561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I click on \"bornToday\"",
+            "result": {
+              "status": "passed",
+              "duration": 5447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I click on \"closeDateFilter\"",
+            "result": {
+              "status": "passed",
+              "duration": 418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I click on \"birthDateFilter\"",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I set text \"TODAY|YYYY-MM-DD|-14610\" for element \"birthDateStart\"",
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I set text \"TODAY|YYYY-MM-DD|-14610\" for element \"birthDateEnd\"",
+            "result": {
+              "status": "passed",
+              "duration": 685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I click on \"seeResult\"",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I select \"1\" item on the \"birthdayList\" list",
+            "result": {
+              "status": "passed",
+              "duration": 11838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I capture screenshot",
+            "result": {
+              "status": "passed",
+              "duration": 9271000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

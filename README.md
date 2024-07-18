@@ -52,14 +52,39 @@ You can run the Cypress test scripts in different modes:
     ```
 
 3. **Specific Test Scripts**: To run specific test scripts, use the `--spec` option followed by the path to the test file.
-    - For IMDb tests:
+    - For IMDb tests on Chrome :
       ```sh
-      npx cypress run --spec "cypress/e2e/Features/IMDbUI.feature"
+      npx cypress run --browser chrome --spec "cypress/e2e/Features/IMDbUI.feature"
+
+      or 
+      npm run cy:runIMDBOnChrome
+      ```
+    - For IMDb tests on Firefox :
+      ```sh
+      npx cypress run --browser firefox --spec "cypress/e2e/Features/IMDbUI.feature"
+
+      or 
+      npm run cy:runIMDBOnFirefox
+
       ```
     - For Poke.co tests:
       ```sh
       npx cypress run --spec "cypress/e2e/Features/PokeAPI.feature"
+
+      or
+
+      npm run cy:runPokeAPIChrome
       ```
+
+    - For running all tests
+      ```sh
+      npx cypress run --browser <chrome or firefox>
+
+      or
+
+      npm run cy:runAllOnChrome
+       ```
+
 
 ## Project Structure
 

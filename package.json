@@ -19,7 +19,7 @@
     "cy:runOMNI": "cypress run --env configFile=OMNI,exec_Env=Staging,TAGS=@OMNI_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMNI_RT/*/*/*/*.feature' --tag 'OMNI-RT:Staging'"
 
   },
-  "author": "akksi",
+  
   "license": "ISC",
   "dependencies": {
     "allure-commandline": "^2.17.2",

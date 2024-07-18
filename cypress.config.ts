@@ -1,7 +1,7 @@
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
-  projectId: 'oodmn1',
+  projectId: 'rwu7t6',
   chromeWebSecurity: false,
   defaultCommandTimeout: 30000,
   pageLoadTimeout: 120000,

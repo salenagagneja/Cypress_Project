@@ -16,8 +16,9 @@
     "cy:runOMS": "cypress run --env configFile=OMS,exec_Env=Staging,TAGS=@OMS_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMS/*/*/*.feature' --tag 'OMS-RT:Staging'",
     "cy:runINTS": "cypress run --env configFile=INTS,exec_Env=Staging,TAGS=@INTS_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/INTS/*/*/*.feature' --tag 'INTS-RT:Staging'",
     "cy:runSFSC": "cypress run --env configFile=SFSC,exec_Env=Staging,TAGS=@SFSC_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/SFSC/*/*/*.feature' --tag 'SFSC-RT:Staging'",
-    "cy:runOMNI": "cypress run --env configFile=OMNI,exec_Env=Staging,TAGS=@OMNI_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMNI_RT/*/*/*/*.feature' --tag 'OMNI-RT:Staging'"
-
+    "cy:runOMNI": "cypress run --env configFile=OMNI,exec_Env=Staging,TAGS=@OMNI_RT --record --key 05990b63-5e93-4355-96a4-288bd25f6d9d --spec 'cypress/e2e/Features/OMNI_RT/*/*/*/*.feature' --tag 'OMNI-RT:Staging'",
+    "cy:runIMDBOnChrome": "npx cypress run --browser chrome --spec 'cypress/e2e/Features/IMDbUI.feature'",
+    "cy:runIMDBOnFirefox": "npx cypress run --browser firefox --spec 'cypress/e2e/Features/IMDbUI.feature'"
   },
   
   "license": "ISC",

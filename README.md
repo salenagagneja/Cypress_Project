@@ -64,23 +64,22 @@ You can run the Cypress test scripts in different modes:
 ## Project Structure
 
 The project directory structure is as follows:
-    ```sh
-    Cypress_Project/
-    │
-    ├── cypress/
-    │ ├── e2e/
-    │ │ ├── Features/
-    │ │ │ ├── IMDb UI.feature
-    │ │ │ ├── Poke API.feature
-    │ │ │ └── (other feature files)
-    │ │ └── (other test files)
-    │ ├── fixtures/
-    │ ├── integration/
-    │ ├── plugins/
-    │ └── support/
-    │
-    ├── .gitignore
-    ├── cypress.config.js
-    ├── package.json
-    ```
+```sh
+Cypress_Project/
+│
+├── cypress/
+│   ├── e2e/
+│   │   ├── Features/
+│   │   │   ├── IMDb UI.feature
+│   │   │   ├── Poke API.feature
+│   │   │   └── (other feature files)
+│   │   └── (other test files)
+│   ├── fixtures/
+│   ├── integration/
+│   ├── plugins/
+│   └── support/
+│
+├── .gitignore
+├── cypress.config.js
+├── package.json
 

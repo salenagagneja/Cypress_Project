@@ -7,8 +7,8 @@
     "report:allure": "allure generate cypress/allure-results --clean -o allure-report && allure open  allure-report",
     "lint": "eslint . --ext .ts --ext .js",
     "lint:fix": "eslint . --ext .ts --ext .js.jsx --fix",
-    "cy:runIMDBOnChrome": "npx cypress run --browser chrome --record --key 69232edb-acd0-41c9-9b34-9d770db3511 --spec 'cypress/e2e/Features/IMDbUI.feature'",
-    "cy:runIMDBOnFirefox": "npx cypress run --browser firefox --record --key 69232edb-acd0-41c9-9b34-9d770db3511 --spec 'cypress/e2e/Features/IMDbUI.feature'",
+    "cy:runIMDBOnChrome": "npx cypress run --browser chrome --record --key 69232edb-acd0-41c9-9b34-9d770db35119 --spec 'cypress/e2e/Features/IMDbUI.feature'",
+    "cy:runIMDBOnFirefox": "npx cypress run --browser firefox --record --key 69232edb-acd0-41c9-9b34-9d770db35119 --spec 'cypress/e2e/Features/IMDbUI.feature'",
     "cy:runPokeAPIChrome": "npx cypress run --browser chrome --record --key 69232edb-acd0-41c9-9b34-9d770db35119 --spec 'cypress/e2e/Features/PokeAPI.feature'",
     "cy:runAllOnChrome": "npx cypress run --browser chrome --record --key 69232edb-acd0-41c9-9b34-9d770db35119"
   },

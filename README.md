@@ -70,8 +70,8 @@ Cypress_Project/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── Features/
-│   │   │   ├── IMDb UI.feature
-│   │   │   ├── Poke API.feature
+│   │   │   ├── IMDbUI.feature
+│   │   │   ├── PokeAPI.feature
 │   │   │   └── (other feature files)
 │   │   └── (other test files)
 │   ├── fixtures/

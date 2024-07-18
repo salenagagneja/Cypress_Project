@@ -24,7 +24,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```sh
- clone <repository-url>
+    clone <repository-url>
     ```
 
 2. **Navigate to the project directory**:
